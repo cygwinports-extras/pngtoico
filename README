@@ -1,0 +1,58 @@
+pngtoico
+-------------------------------------------
+pngtoico converts a set of palettized (indexed) Portable Network
+Graphics (PNG) files to a single Micro$oft icon (ICO) file.
+
+Each input PNG image should be no larger than 255x255 pixels, and use
+no more than 256 colours.  Fully transparent pixels are allowed; 
+partially transparent pixels (alpha blending) are not.
+
+Runtime requirements:
+  cygwin-1.5.19-4
+  libpng12-1.2.8-2
+
+Build requirements:
+  cygwin-1.5.19-4
+  binutils-20050610-1
+  cygport-0.1.92-1
+  gcc-core-3.4.4-1
+  make-3.80-1
+  libpng12-devel-1.2.8-2
+
+Canonical homepage:
+  http://www.kernel.org/pub/software/graphics/pngtoico/
+
+-------------------------------------------
+
+Build instructions:
+  unpack pngtoico-1.0.1-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./pngtoico-1.0.1-1.cygport all
+
+This will create:
+  /usr/src/pngtoico-1.0.1-1-src.tar.bz2
+  /usr/src/pngtoico-1.0.1-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/pngtoico.exe
+  /usr/share/doc/Cygwin/pngtoico-1.0.1.README
+  /usr/share/man/man1/pngtoico.1.gz
+
+------------------
+
+Port Notes:
+
+----- version 1.0.1-1 -----
+Version bump.
+
+----- version 1.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
