@@ -1,5 +1,5 @@
 category: Graphics
-requires: cygwin libpng12
+requires: libpng12
 sdesc: "Converts palettized PNG graphics to ICO format"
 ldesc: "pngtoico converts a set of palettized (indexed) Portable Network
 Graphics (PNG) files to a single Micro$oft icon (ICO) file.
